@@ -1,0 +1,46 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+
+}
+
+.words{
+  margin: 10px;
+  animation-name: appearingAnimation;
+  animation-duration: 3s;
+}
+
+.header{
+  padding-left: 10px;
+  animation-name: appearingAnimation;
+  animation-duration: 1s;
+}
+
+.move-container{
+  padding-top: 10px;
+  animation-name: appearingAnimation;
+  animation-duration: 2s;
+}
+
+.employee-title{
+  padding-top: 15px;
+}
+
+
+
+
+
+@keyframes appearingAnimation{
+
+  0%{opacity: 0}
+
+  40%{opacity: 0}
+
+  100%{opacity: 1}
+
+}
